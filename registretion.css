@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+  .whitebox {
+    width: 360px; /* Fixed width */
+    height: 416px; /* Fixed height */
+    background-color:#ffffff;
+    border-radius: 1px; /* Rounded corners */
+    margin: 0px auto;
+    /* this is use too center the div */
+    padding: 20px;
+   
+  }
+ 
+  h1{
+    text-align: center;
+  }
+  .hover {
+    background-color:#007bff; /* Default background color */
+    color: white; /* Default text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* Changes cursor to pointer */
+    transition: background-color 1s ease; /* Smooth transition */
+  }
+  /* Button hover style */
+  .hover:hover {
+    background-color: rgb(54, 86, 228); /* New background color on hover */
+    
+  }
+  a {
+    color: blue; /* Default link color */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+
+  /* Hover effect */
+  a:hover {
+    color: red; /* Changes color on hover */
+    text-decoration: underline; /* Adds underline on hover */
+  }
+  
+
+  input {
+  
+    width: 340px; /* Increase width */
+    height: 38px; /* Increase height */
+    margin: 6px;
+    font-size: 16px; /* Increase font size for text */
+    border-radius: 5px; /* Optional: Rounded corners */
+   
+   
+  }
+
+  input:focus {
+    border-color: blue; /* Optional: Change border color on focus */
+    outline: none; /* Remove the default outline */
+  }
+  p{
+    margin: 0;
+    padding: 0 20px 20px;
+    text-align: center;
+}
+  
+ button{
+    margin: 6px;
+ }
+ .login{
+    margin: 6px;
+ }
+
+ #registration{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url('opacity.jpg');
+    background-size: cover;
+    background-position: center;
+    /* text-align: center; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    
+  
+    /* justify-content: center; */
+    /* align-items: center; */
+    }

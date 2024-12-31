@@ -1,0 +1,279 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+     overflow-x: hidden; /* Prevent horizontal scrolling */
+  box-sizing: border-box; /* Include padding/border in element's width */
+  width: 100%; 
+}
+    /* Styling for the button */
+    button {
+      border: 4px solid #ffffff; /* Border thickness and color */
+      background-color: transparent; /* Button background color */
+      color: white; /* Text color */
+      font-size: 16px; /* Text size */
+      font-weight: bold;
+      text-align: center; /* Center text */
+      padding: 10px 20px; /* Padding adjusts size based on text */
+      display: inline-block; /* Only take up space based on content */
+      cursor: pointer; /* Pointer on hover */
+      text-decoration: none; /* Remove underline */
+    }
+
+    /* Hover effect for the button */
+   /* Apply the upward animation */
+
+  
+  /* Style the element */
+  button {
+    animation: moveUp 1s ease-out forwards;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: rgba(82, 184, 252, 0.5); /* Less opaque blue color */
+  }
+  
+  /* Apply the upward movement animation on hover */
+button {
+    
+    
+    background-color:transparent; /* Blue background */
+    color: white;
+    font-size: 16px;
+    
+    
+    transition: transform 0.5s ease, color 0.5s ease, background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  button:hover {
+     /* Less opaque blue text */
+    background-color: #004b7d; /* Less opaque blue background */
+    transform: translateY(-10px); /* Move the button upward */
+  }
+  div{
+   padding: 13px;
+  }
+
+  #sliderarea{
+    height: 100vh;
+    background-image: url('opacity.jpg');
+    background-size: cover;
+    background-position: center;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+  
+    /* justify-content: center; */
+    /* align-items: center; */
+    }
+    /* #services{
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      margin: 0px auto;
+    
+    }
+
+    #left{
+      height: 100vh;
+      background-image: url('city.jpeg');
+      background-size: cover;
+      background-position: center;
+     
+      }
+
+      #left{
+        width: 32%;
+        float: left;
+      }
+
+      #center{
+        height: 100vh;
+        background-image: url('city.jpeg');
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        #center{
+          width: 32%;
+          float: left;
+        }
+
+        #right{
+          height: 100vh;
+          background-image: url('city.jpeg');
+          background-size: cover;
+          background-position: center;
+          text-align: center;
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          }
+
+          #right{
+            width: 32%;
+            float: right;
+          }
+   */
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+}
+  h1{
+    color: #ffffff;
+    font-family: "Public Sans", Sans-serif;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  h2{
+    font-family: "Public Sans", Sans-serif;
+    font-size: 84px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  
+  .container {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertical alignment */
+    gap: 40px; /* Space between the blue box and text */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+  }
+
+  /* Blue box styling */
+  .blue-box {
+    width: 300px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    background-color:#19415c;
+    border-radius: 1px; /* Rounded corners */
+    transition: all 1s ease; /* Smooth transition for animation */
+  }
+
+  /* Animation when hovering over the blue box */
+  .blue-box:hover {
+    transform: scale(0.9); /* Shrinks the box slightly */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+  }
+
+  /* Text section styling */
+  .text-section {
+    flex: 1; /* Take the remaining space */
+    text-align: left; /* Align text to the left */
+    color: #00253e;
+  }
+
+  .text-section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .text-section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .picture{
+    width: 280px;;
+      height: 270px;
+      
+  }
+.h{
+  color:#00253e ;
+}
+#aboutsection1{
+  height: 100vh;
+  background-image: url('new-01.jpg');
+  background-size: cover;
+  background-position: center;
+  /* text-align: center; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  }
+  
+
+
+  
+  .container {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertical alignment */
+    gap: 40px; /* Space between the blue box and text */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+  }
+
+  /* Blue box styling */
+  .blue-box {
+    width: 300px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    background-color:#19415c;
+    border-radius: 1px; /* Rounded corners */
+    transition: all 1s ease; /* Smooth transition for animation */
+  }
+
+  /* Animation when hovering over the blue box */
+  .blue-box:hover {
+    transform: scale(0.9);
+     /* Shrinks the box slightly */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+  }
+
+  /* Text section styling */
+  .text-section {
+    flex: 1; /* Take the remaining space */
+    text-align: left; /* Align text to the left */
+    color: #00253e;
+  }
+
+  .text-section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .text-section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .picture{
+
+    width: 300px;;
+      height: 300px;
+      padding: 0px 10px
+  }
+.h{
+  color:#00253e ;
+}
+#aboutsection2{
+  height: 100vh;
+  background-image: url('new-01.jpg');
+  background-size: cover;
+  background-position: center;
+  /* text-align: center; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  }
+  .frist{
+    background-color: #004b7d;
+  }
+  .second{
+    background-color: #004b7d;
+  }
